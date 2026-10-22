@@ -1,7 +1,7 @@
 package rv32i_pkg;
 
-  // ---------------- sizes ----------------
-  localparam int          XLEN     = 32;
+
+  localparam int          LEN     = 32;
   localparam logic [31:0] RESET_PC = 32'h0000_0000;
 
   // opcodes: bits [6:0] 
